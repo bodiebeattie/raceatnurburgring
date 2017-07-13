@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		880BD72F1F1839C2004E07EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880BD72E1F1839C2004E07EF /* AppDelegate.swift */; };
+		880BD7311F1839C2004E07EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880BD7301F1839C2004E07EF /* ViewController.swift */; };
+		880BD7341F1839C2004E07EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880BD7321F1839C2004E07EF /* Main.storyboard */; };
+		880BD7361F1839C2004E07EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880BD7351F1839C2004E07EF /* Assets.xcassets */; };
+		880BD7391F1839C2004E07EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880BD7371F1839C2004E07EF /* LaunchScreen.storyboard */; };
+		880BD7441F1839C2004E07EF /* _HoursofNurburgringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880BD7431F1839C2004E07EF /* _HoursofNurburgringTests.swift */; };
+		880BD74F1F1839C2004E07EF /* _HoursofNurburgringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880BD74E1F1839C2004E07EF /* _HoursofNurburgringUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		880BD7401F1839C2004E07EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880BD7231F1839C2004E07EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880BD72A1F1839C2004E07EF;
+			remoteInfo = 6HoursofNurburgring;
+		};
+		880BD74B1F1839C2004E07EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880BD7231F1839C2004E07EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880BD72A1F1839C2004E07EF;
+			remoteInfo = 6HoursofNurburgring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		880BD72B1F1839C2004E07EF /* 6HoursofNurburgring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 6HoursofNurburgring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		880BD72E1F1839C2004E07EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		880BD7301F1839C2004E07EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		880BD7331F1839C2004E07EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		880BD7351F1839C2004E07EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		880BD7381F1839C2004E07EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		880BD73A1F1839C2004E07EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880BD73F1F1839C2004E07EF /* 6HoursofNurburgringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 6HoursofNurburgringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880BD7431F1839C2004E07EF /* _HoursofNurburgringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HoursofNurburgringTests.swift; sourceTree = "<group>"; };
+		880BD7451F1839C2004E07EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880BD74A1F1839C2004E07EF /* 6HoursofNurburgringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 6HoursofNurburgringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880BD74E1F1839C2004E07EF /* _HoursofNurburgringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HoursofNurburgringUITests.swift; sourceTree = "<group>"; };
+		880BD7501F1839C2004E07EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		880BD7281F1839C2004E07EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880BD73C1F1839C2004E07EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880BD7471F1839C2004E07EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		880BD7221F1839C2004E07EF = {
+			isa = PBXGroup;
+			children = (
+				880BD72D1F1839C2004E07EF /* 6HoursofNurburgring */,
+				880BD7421F1839C2004E07EF /* 6HoursofNurburgringTests */,
+				880BD74D1F1839C2004E07EF /* 6HoursofNurburgringUITests */,
+				880BD72C1F1839C2004E07EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		880BD72C1F1839C2004E07EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				880BD72B1F1839C2004E07EF /* 6HoursofNurburgring.app */,
+				880BD73F1F1839C2004E07EF /* 6HoursofNurburgringTests.xctest */,
+				880BD74A1F1839C2004E07EF /* 6HoursofNurburgringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		880BD72D1F1839C2004E07EF /* 6HoursofNurburgring */ = {
+			isa = PBXGroup;
+			children = (
+				880BD72E1F1839C2004E07EF /* AppDelegate.swift */,
+				880BD7301F1839C2004E07EF /* ViewController.swift */,
+				880BD7321F1839C2004E07EF /* Main.storyboard */,
+				880BD7351F1839C2004E07EF /* Assets.xcassets */,
+				880BD7371F1839C2004E07EF /* LaunchScreen.storyboard */,
+				880BD73A1F1839C2004E07EF /* Info.plist */,
+			);
+			path = 6HoursofNurburgring;
+			sourceTree = "<group>";
+		};
+		880BD7421F1839C2004E07EF /* 6HoursofNurburgringTests */ = {
+			isa = PBXGroup;
+			children = (
+				880BD7431F1839C2004E07EF /* _HoursofNurburgringTests.swift */,
+				880BD7451F1839C2004E07EF /* Info.plist */,
+			);
+			path = 6HoursofNurburgringTests;
+			sourceTree = "<group>";
+		};
+		880BD74D1F1839C2004E07EF /* 6HoursofNurburgringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				880BD74E1F1839C2004E07EF /* _HoursofNurburgringUITests.swift */,
+				880BD7501F1839C2004E07EF /* Info.plist */,
+			);
+			path = 6HoursofNurburgringUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		880BD72A1F1839C2004E07EF /* 6HoursofNurburgring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880BD7531F1839C2004E07EF /* Build configuration list for PBXNativeTarget "6HoursofNurburgring" */;
+			buildPhases = (
+				880BD7271F1839C2004E07EF /* Sources */,
+				880BD7281F1839C2004E07EF /* Frameworks */,
+				880BD7291F1839C2004E07EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 6HoursofNurburgring;
+			productName = 6HoursofNurburgring;
+			productReference = 880BD72B1F1839C2004E07EF /* 6HoursofNurburgring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		880BD73E1F1839C2004E07EF /* 6HoursofNurburgringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880BD7561F1839C2004E07EF /* Build configuration list for PBXNativeTarget "6HoursofNurburgringTests" */;
+			buildPhases = (
+				880BD73B1F1839C2004E07EF /* Sources */,
+				880BD73C1F1839C2004E07EF /* Frameworks */,
+				880BD73D1F1839C2004E07EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880BD7411F1839C2004E07EF /* PBXTargetDependency */,
+			);
+			name = 6HoursofNurburgringTests;
+			productName = 6HoursofNurburgringTests;
+			productReference = 880BD73F1F1839C2004E07EF /* 6HoursofNurburgringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		880BD7491F1839C2004E07EF /* 6HoursofNurburgringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880BD7591F1839C2004E07EF /* Build configuration list for PBXNativeTarget "6HoursofNurburgringUITests" */;
+			buildPhases = (
+				880BD7461F1839C2004E07EF /* Sources */,
+				880BD7471F1839C2004E07EF /* Frameworks */,
+				880BD7481F1839C2004E07EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880BD74C1F1839C2004E07EF /* PBXTargetDependency */,
+			);
+			name = 6HoursofNurburgringUITests;
+			productName = 6HoursofNurburgringUITests;
+			productReference = 880BD74A1F1839C2004E07EF /* 6HoursofNurburgringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		880BD7231F1839C2004E07EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Bodie;
+				TargetAttributes = {
+					880BD72A1F1839C2004E07EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					880BD73E1F1839C2004E07EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 880BD72A1F1839C2004E07EF;
+					};
+					880BD7491F1839C2004E07EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 880BD72A1F1839C2004E07EF;
+					};
+				};
+			};
+			buildConfigurationList = 880BD7261F1839C2004E07EF /* Build configuration list for PBXProject "6HoursofNurburgring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 880BD7221F1839C2004E07EF;
+			productRefGroup = 880BD72C1F1839C2004E07EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				880BD72A1F1839C2004E07EF /* 6HoursofNurburgring */,
+				880BD73E1F1839C2004E07EF /* 6HoursofNurburgringTests */,
+				880BD7491F1839C2004E07EF /* 6HoursofNurburgringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		880BD7291F1839C2004E07EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880BD7391F1839C2004E07EF /* LaunchScreen.storyboard in Resources */,
+				880BD7361F1839C2004E07EF /* Assets.xcassets in Resources */,
+				880BD7341F1839C2004E07EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880BD73D1F1839C2004E07EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880BD7481F1839C2004E07EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		880BD7271F1839C2004E07EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880BD7311F1839C2004E07EF /* ViewController.swift in Sources */,
+				880BD72F1F1839C2004E07EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880BD73B1F1839C2004E07EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880BD7441F1839C2004E07EF /* _HoursofNurburgringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880BD7461F1839C2004E07EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880BD74F1F1839C2004E07EF /* _HoursofNurburgringUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		880BD7411F1839C2004E07EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880BD72A1F1839C2004E07EF /* 6HoursofNurburgring */;
+			targetProxy = 880BD7401F1839C2004E07EF /* PBXContainerItemProxy */;
+		};
+		880BD74C1F1839C2004E07EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880BD72A1F1839C2004E07EF /* 6HoursofNurburgring */;
+			targetProxy = 880BD74B1F1839C2004E07EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		880BD7321F1839C2004E07EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880BD7331F1839C2004E07EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		880BD7371F1839C2004E07EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880BD7381F1839C2004E07EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		880BD7511F1839C2004E07EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		880BD7521F1839C2004E07EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		880BD7541F1839C2004E07EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 6HoursofNurburgring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bodie.-HoursofNurburgring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		880BD7551F1839C2004E07EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 6HoursofNurburgring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bodie.-HoursofNurburgring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		880BD7571F1839C2004E07EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 6HoursofNurburgringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bodie.-HoursofNurburgringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/6HoursofNurburgring.app/6HoursofNurburgring";
+			};
+			name = Debug;
+		};
+		880BD7581F1839C2004E07EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 6HoursofNurburgringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bodie.-HoursofNurburgringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/6HoursofNurburgring.app/6HoursofNurburgring";
+			};
+			name = Release;
+		};
+		880BD75A1F1839C2004E07EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = 6HoursofNurburgringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bodie.-HoursofNurburgringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = 6HoursofNurburgring;
+			};
+			name = Debug;
+		};
+		880BD75B1F1839C2004E07EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = 6HoursofNurburgringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bodie.-HoursofNurburgringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = 6HoursofNurburgring;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		880BD7261F1839C2004E07EF /* Build configuration list for PBXProject "6HoursofNurburgring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880BD7511F1839C2004E07EF /* Debug */,
+				880BD7521F1839C2004E07EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880BD7531F1839C2004E07EF /* Build configuration list for PBXNativeTarget "6HoursofNurburgring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880BD7541F1839C2004E07EF /* Debug */,
+				880BD7551F1839C2004E07EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		880BD7561F1839C2004E07EF /* Build configuration list for PBXNativeTarget "6HoursofNurburgringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880BD7571F1839C2004E07EF /* Debug */,
+				880BD7581F1839C2004E07EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		880BD7591F1839C2004E07EF /* Build configuration list for PBXNativeTarget "6HoursofNurburgringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880BD75A1F1839C2004E07EF /* Debug */,
+				880BD75B1F1839C2004E07EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 880BD7231F1839C2004E07EF /* Project object */;
+}
